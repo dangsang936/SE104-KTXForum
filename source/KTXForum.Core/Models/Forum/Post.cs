@@ -1,7 +1,7 @@
 ﻿using KTXForum.Core.Enums;
 using System;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Forum
 {
     public class Post
     {

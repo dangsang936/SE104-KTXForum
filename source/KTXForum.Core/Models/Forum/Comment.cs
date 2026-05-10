@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Forum
 {
     internal class Comment
     {

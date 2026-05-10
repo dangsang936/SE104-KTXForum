@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Dormitory
 {
     public class Room
     {
@@ -12,10 +12,10 @@ namespace KTXForum.Core.Models
         public string building { get; set; }
         public string dormName { get; set; }
         public int roomNumber { get; set; }
-        public Gender gender { get; set; }
         public int capacity { get; set; }
         public int currentOccupancy { get; set; }
         public decimal pricePerMonth { get; set; }
         public RoomStatus status { get; set; }
+        public RoomType type { get; set; }
     }
 }

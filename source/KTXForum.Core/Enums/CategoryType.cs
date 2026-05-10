@@ -4,10 +4,9 @@ using System.Text;
 
 namespace KTXForum.Core.Enums
 {
-    public enum PostStatus
+    public enum CategoryType
     {
-        Pending,
-        Approved,
-        Rejected,
+        NeedApproval,
+        DontNeedApproval
     }
 }

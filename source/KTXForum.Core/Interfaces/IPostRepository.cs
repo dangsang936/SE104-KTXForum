@@ -1,4 +1,4 @@
-﻿using KTXForum.Core.Models;
+﻿using KTXForum.Core.Models.Forum;
 using System;
 using System.Collections.Generic;
 using System.Text;

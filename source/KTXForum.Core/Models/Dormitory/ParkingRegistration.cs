@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Dormitory
 {
     public class ParkingRegistration
     {
@@ -11,7 +11,6 @@ namespace KTXForum.Core.Models
         public int durationMonths { get; set; }
         public DateTime startDate { get; set; }
         public DateTime endDate { get; set; }
-        public decimal totalPrice { get; set; }
-        public string status { get; set; }
+        public ParkingRegistration status { get; set; }
     }
 }

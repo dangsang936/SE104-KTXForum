@@ -4,10 +4,10 @@ using System.Text;
 
 namespace KTXForum.Core.Enums
 {
-    public enum PostStatus
+    public enum PaymentStatus
     {
         Pending,
-        Approved,
-        Rejected,
+        Completed,
+        Canceled
     }
 }

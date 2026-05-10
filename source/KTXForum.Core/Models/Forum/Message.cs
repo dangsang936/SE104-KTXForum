@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Forum
 {
     public class Message
     {

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using KTXForum.Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace KTXForum.Core.Models
+namespace KTXForum.Core.Models.Billing
 {
     public class Utility_Bill
     {
@@ -18,5 +19,6 @@ namespace KTXForum.Core.Models
 
         public string status { get; set; }
         public DateTime createdAt { get; set; }
+        public PaymentStatus paymentStatus { get; set; } = PaymentStatus.Pending;
     }
 }
