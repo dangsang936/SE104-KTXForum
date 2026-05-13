@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KTXForum.Core.Interfaces.Services
 {
-     interface IPostService
+     public interface IPostService
     {
     }
 }

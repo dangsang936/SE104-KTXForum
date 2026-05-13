@@ -5,7 +5,7 @@ using System.Text;
 
 namespace KTXForum.Core.Models.Billing
 {
-    internal class ParkingBill
+    public class ParkingBill
     {
         public int parkingBillId { get; set; }
         public int parkingRegistrationId { get; set; }

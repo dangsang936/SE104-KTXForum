@@ -5,7 +5,7 @@ using System.Text;
 
 namespace KTXForum.Core.Models.Forum
 {
-    internal class Comment
+    public class Comment
     {
         private int commentId { get; set; }
         private string content { get; set; }

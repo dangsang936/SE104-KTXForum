@@ -5,7 +5,7 @@ using System.Text;
 
 namespace KTXForum.Core.Models.Dormitory
 {
-    internal class Building
+    public class Building
     {
         public int buildingId { get; set; }
         public string name { get; set; }
